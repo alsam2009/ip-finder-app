@@ -1,0 +1,23 @@
+{
+  "name": "ip_finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --out-dir=build --no-minify",
+    "predeploy": "npm run build",
+    "deploy": "vercel --prod"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "vercel": "^28.16.15"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.3"
+  }
+}
